@@ -1,0 +1,25 @@
+{
+  "name": "my-ssg-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",  
+    "deploy": "npm run build && gh-pages -d out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
