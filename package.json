@@ -2,11 +2,10 @@
   "name": "my-ssg-project",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "next build",
-    "start": "next start",  
-    "deploy": "npm run build && gh-pages -d out"
-  },
+ "scripts": {
+  "build": "next build",
+  "deploy": "gh-pages -d out"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
